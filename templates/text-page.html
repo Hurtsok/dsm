@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="{{ base }}"/>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/assets/stylesheets/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="/assets/stylesheets/slick.css" type="text/css"/>
+    <link rel="stylesheet" href="/assets/stylesheets/sample.css" type="text/css"/>
+    <script type="text/javascript" src="/assets/javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/slick.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/velocity.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/velocity.ui.min.js"></script>
+    <script type="text/javascript" src="/assets/javascript/skrollr.js"></script>
+    <script type="text/javascript" src="/assets/javascript/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+</head>
+<body class="b-main">
+<div class="b-wrapper">
+    <div class="b-fon b-fon_type_random-image" data-0="background-position: 50% 200px;" data-end="background-position: 50% 0;"></div>
+    <div class="b-wrapper__item">
+        <div class="b-header b-header_not-main">
+            <ul class="b-menu b-menu_theme_not-main">
+                <li class="b-menu__item">
+                    <a href="" class="b-logo b-logo_small"></a>
+                </li>
+                <li data-trigger="menu" class="b-menu__item">
+                    <a href="" class="b-link b-link_theme_menu">О компании</a>
+                </li>
+                <li data-trigger="menu" class="b-menu__item">
+                    <a href="" class="b-link b-link_theme_menu">Услуги</a>
+                </li>
+                <li data-trigger="menu" class="b-menu__item b-menu__item_active">
+                    <span class="b-link b-link_theme_menu">Наши объекты<div class="b-menu__arrow"></div></span>
+                    <ul class="b-menu b-menu_sub">
+                        <li class="b-menu__item">
+                            <a href="" class="b-link b-link_block">
+                                Первый пункт второго
+                                уровня (выпадающее
+                                меню)
+                            </a>
+                        </li>
+                        <li data-trigger="menu" class="b-menu__item b-menu__item_active">
+                            <span class="b-link b-link_block">
+                                Второй пункт выпадающего меню<div class="b-menu__arrow"></div>
+                            </span>
+                            <ul class="b-menu b-menu_sub b-menu_sub_third">
+                                <li class="b-menu__item">
+                                    <a href="" class="b-link b-link_block">Первый пункт третьего уровня</a>
+                                </li>
+                                <li class="b-menu__item">
+                                    <a href="" class="b-link b-link_block">Второй пункт</a>
+                                </li>
+                                <li class="b-menu__item b-menu__item_active">
+                                    <span class="b-link b-link_block">Последний пункт</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="b-menu__item">
+                            <a href="" class="b-link b-link_block">
+                                Предпоследний пункт
+                            </a>
+                        </li>
+                        <li class="b-menu__item">
+                            <a href="" class="b-link b-link_block">
+                                Последний
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li data-trigger="menu" class="b-menu__item">
+                    <a href="" class="b-link b-link_theme_menu">Контакты</a>
+                </li>
+                <li class="b-menu__address">
+                    <div class="b-menu__phone b-title b-title_type_h3 b-title_no-margin">8 (423) 200-94-88</div>
+                    <a href="mailto:dsm@skdsm.ru" class="b-menu__email b-link b-link_theme_menu">dsm@skdsm.ru</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="b-menu b-menu_theme_left">
+            <li class="b-menu__item">
+                <a href="" class="b-link b-link_block">
+                    Первый пункт второго
+                    уровня (выпадающее
+                    меню)
+                </a>
+            </li>
+            <li class="b-menu__item b-menu__item_active">
+                <span class="b-link b-link_block">
+                    Второй пункт
+                    выпадающего меню<div class="b-menu__arrow"></div>
+                </span>
+                <ul class="b-menu b-menu_sub">
+                    <li class="b-menu__item">
+                        <a href="" class="b-link b-link_block">Первый пункт третьего уровня</a>
+                    </li>
+                    <li class="b-menu__item">
+                        <a href="" class="b-link b-link_block">Второй пункт</a>
+                    </li>
+                    <li class="b-menu__item b-menu__item_active">
+                        <span class="b-link b-link_block">Последний пункт</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="b-menu__item">
+                <a href="" class="b-link b-link_block">
+                    Последний
+                </a>
+            </li>
+        </ul>
+        <div class="b-content">
+            <div class="b-breadcrumb">
+                <div class="b-breadcrumb__item">
+                    <a href="" class="b-link">Главная страница</a>
+                </div>
+                <div class="b-breadcrumb__item">
+                    Текстовая страница
+                </div>
+            </div>
+            <div class="b-editable">
+                <h1 class="b-title b-title_type_h1">
+                    Заголовок первого уровня, какой-нибудь
+                    очень длинный, для наглядности
+                </h1>
+                <p>
+                    Группа компаний «Капитал Строй» основана в 2001 году. Становление компании началось с промышленного
+                    строительства таких объектов, как фабрика компании «Ратимир», включившей в себя: котельную, административно-бытовой комплекс, очистные сооружения и многое другое.
+                </p>
+                <p>
+                    Группа компаний «Капитал Строй» это строительный холдинг, состоящий из нескольких компаний,
+                    осуществляющий полный строительный цикл.
+                </p>
+                <h2 class="b-title b-title_type_h2">Заголовок второго уровня</h2>
+                <p>
+                    Основное направление деятельности компания «Киноластик» — производство современного звукоизоляционного материала Пенополистирола, или ему подобного.
+                </p>
+                <ul>
+                    <li>Теплозвукоизоляционного</li>
+                    <li>Современного теплозвукоизоляционного материала Пенополистирола <br/>Производство</li>
+                    <li>За короткий период компания заняла лидирующее положение <br/>производителя</li>
+                </ul>
+                <p>
+                    Исполь1зуя современное немецкое оборудование и импортное сырье, компания выпускает высококачественный
+                    «Пенополистирол» в самом широком ассортименте марок ПСБС-15,25,35,50, ПСБС 25Ф — фасадный с выбранной четвертью и ПСБС-50Д —дорожный. Нами были проведены испытания нашей продукции и получены все
+                    необходимые сертификаты.
+                </p>
+                <ol>
+                    <li>Теплозвукоизоляционного</li>
+                    <li>Современного теплозвукоизоляционного материала Пенополистирола</li>
+                    <li>Производство</li>
+                </ol>
+                <h3 class="b-title b-title_type_h3">Заголовок третьего уровня</h3>
+                <p>
+                    За короткий период компания заняла лидирующее положение производителя теплоизоляционных материалов
+                    на рынке Дальнего Востока предлагая строителям не только качественный утеплитель.
+                </p>
+                <table>
+                    <tr>
+                        <th>Маршрут</th>
+                        <th>Цена, руб.</th>
+                        <th>Возрастные ограничения</th>
+                    </tr>
+                    <tr>
+                        <td>К подножью Белухи и сплав по р. Катунь</td>
+                        <td>28 000.00</td>
+                        <td>от 18 до 55 лет, дети младше 14 лет в сопровождении взрослых</td>
+                    </tr>
+                    <tr>
+                        <td>К подножью Белухи и сплав</td>
+                        <td>28 000.00</td>
+                        <td>от 18 до 55 лет, дети младше 14 лет в сопровождении взрослых и пожилых</td>
+                    </tr>
+                    <tr>
+                        <td>Сплав по р. Катунь</td>
+                        <td>15 000.00</td>
+                        <td>от 18 до 55 лет</td>
+                    </tr>
+                </table>
+                <p>
+                    Используя современное немецкое оборудование и импортное сырье , компания выпускает высококачественный «Пенополистирол» в самом широком ассортименте марок ПСБС-15,25,35, 50, ПСБС 25Ф — фасадный с выбранной четвертью и ПСБС -50Д — дорожный. Нами были проведены испытания нашей продукции и получены все
+                    обходимые сертификаты. Наше производство проходит сертификацию по системе Госстроя России. За короткий период компания заняла лидирующее положение производителя теплоиз ляционных материалов на рынке
+                    Дальнего Востока предлагая строителям не только качественный утеплитель, но и технические решения по его использованию.
+                </p>
+                <div class="b-scroll b-scroll_theme_gallery">
+                    <h2 class="b-title b-title_type_h2">Фотогалерея</h2>
+                    <div class="b-scroll__items">
+                        <a class="b-scroll__item" href="">
+                            <div class="b-scroll__image-item">
+                                <div class="b-scroll__full-size"></div>
+                                <img class="b-image" src="/images-samples/200x200_1.jpg" />
+                            </div>
+                            <div class="b-scroll__text b-link">Подпись к первой фотке</div>
+                        </a><a class="b-scroll__item" href="">
+                            <div class="b-scroll__image-item">
+                                <div class="b-scroll__full-size"></div>
+                                <img class="b-image" src="/images-samples/200x200_1.jpg" />
+                            </div>
+                            <div class="b-scroll__text b-link">Подпись ко второй фотографии</div>
+                        </a><a class="b-scroll__item" href="">
+                            <div class="b-scroll__image-item">
+                                <div class="b-scroll__full-size"></div>
+                                <img class="b-image" src="/images-samples/200x200_1.jpg" />
+                            </div>
+                        </a><a class="b-scroll__item" href="">
+                            <div class="b-scroll__image-item">
+                                <div class="b-scroll__full-size"></div>
+                                <img class="b-image" src="/images-samples/200x200_1.jpg" />
+                            </div>
+                            <div class="b-scroll__text b-link">Предпоследняя</div>
+                        </a><a class="b-scroll__item" href="">
+                            <div class="b-scroll__image-item">
+                                <div class="b-scroll__full-size"></div>
+                                <img class="b-image" src="/images-samples/200x200_1.jpg" />
+                            </div>
+                            <div class="b-scroll__text b-link">Последняя</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="b-clear"></div>
+        <div class="b-map">
+            <div class="b-map__item" data-map="1"></div>
+            <div class="b-map__address">
+                <h2 class="b-title b-title_type_h3">Контактная информация</h2>
+                <div class="b-map__row">
+                    690039, г. Владивосток, <br/>
+                    ул. Русская 9б-602
+                </div>
+                <div class="b-map__row">
+                    8 (423) 200-94-88
+                </div>
+                <div class="b-map__row">
+                    <a href="mailto:dsm@skdsm.ru" class="b-link">dsm@skdsm.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-footer">
+        <div class="b-footer__fon"></div>
+        <div class="b-wrapper__item b-wrapper__item_footer">
+            <div class="b-footer__copyright">© Строительная компания «ДСМ», 2015</div>
+            <div class="b-footer__developer">
+                Создание сайта — <a href="" class="b-link b-link_type_dev">FarPost Design</a>, 2015
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
